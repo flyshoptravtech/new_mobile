@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Theme-1 B2C Flyshop.IN</title>
+    <link rel="stylesheet" href="./pickadate.js-3.6.2/lib/themes/default.css">
+    <link rel="stylesheet" href="./pickadate.js-3.6.2/lib/themes/default.date.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="flightSearchMain">
+        <form>
+            <div class="px-3 py-4">
+                <div class="d-flex align-items-start gap-3">
+                    <div>
+                        <a href="index.html" class="iujhghui"><i class="fa-solid fa-chevron-left"></i></a>
+                    </div>
+                    <div>
+                        <div class="rytuyuiretbg d-flex align-items-center gap-2">
+                            Hey Traveller ! <img src="assets/hand.svg" alt="" style="height: 20px;width: auto;">
+                        </div>
+                        <div class="cghpijiohhvy">Sky is limit. Explore the world with us.</div>
+                    </div>
+                </div>
+                <div class="second_child">
+                    <div class="d-flex">
+                        <div class="w-50">
+                            <div class="d-flex align-items-center gap-2 tripDiv" data-label="oneWay">
+                                <div class="customRadio active"></div>
+                                <div style="font-size: 12px;font-weight: 400;">One Way</div>
+                            </div>
+                        </div>
+                        <div class="w-50">
+                            <div class="d-flex align-items-center gap-2 tripDiv" data-label="twoWay">
+                                <div class="customRadio"></div>
+                                <div style="font-size: 12px;font-weight: 400;">Round Trip</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flrFirniegfwef">
+                        <div class="d-flex align-items-center gap-3">
+                            <div class="dep">
+                                <i class="fa-solid fa-plane"></i>
+                            </div>
+                            <div>
+                                <div class="gyuyouhio">From</div>
+                                <div class="fgyhoiunhyhn" id="fromFirst">New Delhi</div>
+                            </div>
+                            <div class="rotateFly">
+                                <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center gap-3">
+                            <div class="arr">
+                                <i class="fa-solid fa-plane"></i>
+                            </div>
+                            <div>
+                                <div class="gyuyouhio">To</div>
+                                <div class="fgyhoiunhyhn" id="toFirst">Mumbai</div>
+                            </div>
+                        </div>
+                        <div class="d-flex">
+                            <div class="w-50 border-end">
+                                <div class="d-flex align-items-center gap-3">
+                                    <svg viewBox="0 0 20 22" fill="none" xmlns="http://www.w3.org/2000/svg" style="width: 35px;height: 35px;">
+                                        <path d="M16.5556 3.22217H3.22222C1.99492 3.22217 1 4.21709 1 5.44439V18.7777C1 20.005 1.99492 20.9999 3.22222 20.9999H16.5556C17.7829 20.9999 18.7778 20.005 18.7778 18.7777V5.44439C18.7778 4.21709 17.7829 3.22217 16.5556 3.22217Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M14.3333 1V5.44444" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M5.44434 1V5.44444" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M1 9.88882H18.7778" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M7.66656 14.3333H5.44434V16.5556H7.66656V14.3333Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                    <div>
+                                        <div class="gyuyouhio">From</div>
+                                        <input type="text" class="kjerwergqwrgb" id="flightDateFrom">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="w-50 roundBox active" style="padding-left: 14px;">
+                                <div class="d-flex align-items-center gap-3">
+                                    <svg viewBox="0 0 20 22" fill="none" xmlns="http://www.w3.org/2000/svg" style="width: 35px;height: 35px;">
+                                        <path d="M16.5556 3.22217H3.22222C1.99492 3.22217 1 4.21709 1 5.44439V18.7777C1 20.005 1.99492 20.9999 3.22222 20.9999H16.5556C17.7829 20.9999 18.7778 20.005 18.7778 18.7777V5.44439C18.7778 4.21709 17.7829 3.22217 16.5556 3.22217Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M14.3333 1V5.44444" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M5.44434 1V5.44444" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M1 9.88882H18.7778" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M7.66656 14.3333H5.44434V16.5556H7.66656V14.3333Z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                    <div>
+                                        <div class="gyuyouhio">To</div>
+                                        <div class="we44efgw3234" style="width: 6.6em;font-size: 14px;font-weight: 700;">Select</div>
+                                        <input type="text" class="kjerwergqwrgb" id="flightDateTo" style="display: none;">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex">
+                            <div class="w-50 border-end">
+                                <div class="d-flex align-items-center gap-3">
+                                    <svg viewBox="0 0 22 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="width: 18px;height: 20px;">
+                                        <path d="M21.9988 23.3594C21.7186 18.9023 18.5356 15.194 14.2318 13.9338C16.8386 12.7699 18.649 10.2406 18.649 7.30827C18.649 3.27218 15.2235 0 10.9984 0C6.77332 0 3.3479 3.27218 3.3479 7.30827C3.3479 10.2406 5.15821 12.7699 7.7682 13.9338C3.46439 15.194 0.281396 18.9023 0.00119132 23.3594C-0.0208472 23.7053 0.265653 24 0.630864 24C0.961442 24 1.2385 23.7534 1.26054 23.4376C1.55963 18.5504 5.80677 14.6767 10.9984 14.6767C16.1901 14.6767 20.4372 18.5504 20.7395 23.4376C20.7584 23.7534 21.0354 24 21.3691 24C21.7343 24 22.0208 23.7053 21.9988 23.3594ZM4.60725 7.30827C4.60725 3.93684 7.46911 1.20301 10.9984 1.20301C14.5277 1.20301 17.3896 3.93684 17.3896 7.30827C17.3896 10.6797 14.5277 13.4135 10.9984 13.4135C7.46911 13.4135 4.60725 10.6797 4.60725 7.30827Z" style="fill: var(--dynamic-text);" />
+                                    </svg>
+                                    <div>
+                                        <div class="gyuyouhio">Travellers</div>
+                                        <div style="width: 6.6em;font-size: 14px;font-weight: 700;">1 Pax</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="w-50" style="padding-left: 14px;">
+                                <div class="d-flex align-items-center gap-3">
+                                    <svg width="21" height="24" viewBox="0 0 21 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M7.75902 13.9107C8.85483 13.8001 9.9255 13.6936 10.9957 13.584C12.2446 13.4564 13.4929 13.3251 14.7418 13.1966C15.5445 13.1139 16.3491 13.0461 17.1501 12.9494C18.4941 12.7868 19.794 13.7467 20.0278 15.0917C20.2711 16.4902 19.3866 17.8425 18.0328 18.131C17.8371 18.1728 17.6329 18.193 17.4324 18.1934C13.3493 18.197 9.26587 18.1961 5.18284 18.1961C4.33339 18.1961 3.746 17.7625 3.444 16.9711C2.6816 14.9744 2.24409 12.9031 1.9542 10.7919C1.54182 7.78812 1.02353 4.80683 0.0825376 1.91362C-0.220806 0.979773 0.341008 0.114236 1.29232 0.0104253C1.89811 -0.0556359 2.38409 0.19333 2.68115 0.726763C3.24162 1.73206 3.80658 2.73691 4.31813 3.76738C5.57728 6.30287 6.45141 8.97947 7.15278 11.7167C7.3233 12.3827 7.51266 13.0443 7.69395 13.7076C7.71145 13.7714 7.73389 13.8334 7.75902 13.9107Z" style="fill: var(--dynamic-text);" />
+                                        <path d="M16.2164 22.4411C15.7551 21.3689 15.3046 20.3222 14.8384 19.2383C15.2422 19.2383 15.6133 19.2338 15.9835 19.2437C16.0302 19.245 16.0953 19.3115 16.1177 19.3628C16.6127 20.5006 17.109 21.6381 17.5914 22.7809C17.7713 23.2069 17.4976 23.5745 17.0188 23.5745C14.5961 23.5759 12.1734 23.575 9.75064 23.575C8.00103 23.575 6.25097 23.5601 4.50181 23.5835C3.92967 23.5911 3.70755 23.1211 3.90634 22.6825C4.3959 21.5999 4.85541 20.5033 5.32074 19.4095C5.37504 19.2819 5.43786 19.2275 5.58191 19.2324C5.91666 19.2441 6.25187 19.236 6.62656 19.236C6.16212 20.3164 5.71024 21.3671 5.2485 22.4407H16.2178L16.2164 22.4411Z" style="fill: var(--dynamic-text);" />
+                                        <path d="M8.0297 10.9941C7.83361 10.2922 7.64065 9.60279 7.43872 8.87971C7.85245 8.83567 8.26349 8.79028 8.67453 8.74804C10.3761 8.57277 12.0777 8.39796 13.7793 8.22404C14.1881 8.18225 14.5965 8.13596 15.0066 8.1081C15.6097 8.0672 16.1177 8.48199 16.1747 9.04689C16.2397 9.68907 15.8444 10.2059 15.2072 10.2746C13.7668 10.4306 12.3245 10.573 10.8832 10.7209C9.99156 10.8121 9.09948 10.9029 8.20785 10.9928C8.15669 10.9977 8.10464 10.9932 8.03015 10.9932L8.0297 10.9941Z" style="fill: var(--dynamic-text);" />
+                                    </svg>
+                                    <div>
+                                        <div class="gyuyouhio">To</div>
+                                        <div style="width: 6.6em;font-size: 14px;font-weight: 700;">Economy</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ghjipoiuhg mt-3">
+                        <p>Select a special fare</p>
+                        <div class="oiuytreswdfg scroll_none">
+                            <div data-special="regular" class="active">Regular</div>
+                            <div data-special="student">Student</div>
+                            <div data-special="seniorCitizen">Senior Citizen</div>
+                        </div>
+                    </div>
+                    <div class="mt-4">
+                        <button class="submiBtnFl">Flight Search</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <div class="top_flight mt-4">
+        <div class="d-flex align-items-center justify-content-between px-3 mainHeadAll">
+            <h4>Top Flight Routes</h4>
+            <a href="#" class="iujhghui">See All <i class="fa-solid fa-chevron-right"></i></a>
+        </div>
+        <div class="top_flight_div mt-3 px-3">
+            <a href="#">
+                <div class="biygyigiyhbwr4">
+                    <div>
+                        <div class="img">
+                            <img src="assets/airline.svg" alt="" class="w-100 h-100 object-fit-cover">
+                        </div>
+                        <div class="firsty">
+                            <div>
+                                <div class="flg_code">DEL</div>
+                                <div class="flg_city">Delhi</div>
+                            </div>
+                            <div class="flRoutBetwee"><i class="fa-solid fa-chevron-right"></i></div>
+                            <div>
+                                <div class="flg_code">DEL</div>
+                                <div class="flg_city">Delhi</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="strFrom">Starting From</div>
+                        <div class="priceStr">₹1,999</div>
+                        <div class="gvyiubhbui">Book Now</div>
+                    </div>
+                </div>
+            </a>
+            <a href="#">
+                <div class="biygyigiyhbwr4">
+                    <div>
+                        <div class="img">
+                            <img src="assets/airline.svg" alt="" class="w-100 h-100 object-fit-cover">
+                        </div>
+                        <div class="firsty">
+                            <div>
+                                <div class="flg_code">DEL</div>
+                                <div class="flg_city">Delhi</div>
+                            </div>
+                            <div class="flRoutBetwee"><i class="fa-solid fa-chevron-right"></i></div>
+                            <div>
+                                <div class="flg_code">DEL</div>
+                                <div class="flg_city">Delhi</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="strFrom">Starting From</div>
+                        <div class="priceStr">₹1,999</div>
+                        <div class="gvyiubhbui">Book Now</div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="deal_Offer_main my-4">
+        <div class="d-flex align-items-center justify-content-between px-3 mainHeadAll">
+            <h4>Offers & Deals</h4>
+            <a href="#" class="iujhghui">See All <i class="fa-solid fa-chevron-right"></i></a>
+        </div>
+        <div class="deal_card_div mt-3 scroll_none active" id="flightDiv">
+            <div class="">
+                <div class="img">
+                    <img src="assets/deal1.png" alt="" class="h-100 w-100 object-fit-cover">
+                    <div class="fwefwefw">
+                        <img src="assets/flight.svg" alt="" >
+                    </div>
+                </div>
+                <div class="child1">
+                    <h2>Flight Booking on all Domestic Travel...</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+                    <a href="#">View More Details <i class="fa-solid fa-chevron-right"></i></a>
+                    <div class="yyvyvyvyuib">
+                        <div>Use Code</div>
+                        <div>NEWDAYGO</div>
+                    </div>
+                </div>
+            </div>
+            <div class="">
+                <div class="img">
+                    <img src="assets/deal1.png" alt="" class="h-100 w-100 object-fit-cover">
+                    <div class="fwefwefw">
+                        <img src="assets/flight.svg" alt="" >
+                    </div>
+                </div>
+                <div class="child1">
+                    <h2>Flight Booking on all Domestic Travel...</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+                    <a href="#">View More Details <i class="fa-solid fa-chevron-right"></i></a>
+                    <div class="yyvyvyvyuib">
+                        <div>Use Code</div>
+                        <div>NEWDAYGO</div>
+                    </div>
+                </div>
+            </div>
+            <div class="">
+                <div class="img">
+                    <img src="assets/deal1.png" alt="" class="h-100 w-100 object-fit-cover">
+                    <div class="fwefwefw">
+                        <img src="assets/flight.svg" alt="" >
+                    </div>
+                </div>
+                <div class="child1">
+                    <h2>Flight Booking on all Domestic Travel...</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+                    <a href="#">View More Details <i class="fa-solid fa-chevron-right"></i></a>
+                    <div class="yyvyvyvyuib">
+                        <div>Use Code</div>
+                        <div>NEWDAYGO</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script src="./pickadate.js-3.6.2/lib/picker.js"></script>
+    <script src="./pickadate.js-3.6.2/lib/legacy.js"></script>
+    <script src="./pickadate.js-3.6.2/lib/picker.date.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        const todayDate = new Date().toLocaleDateString("en-GB", { day: "2-digit", month: "2-digit", year: "numeric" }).split("/").join("-");
+    
+        $('#flightDateFrom').pickadate({
+            today: '',
+            clear: '',
+            close: 'Cancel',
+            format: 'dd-mm-yyyy',
+            min: todayDate,
+            onSet: function(context) {
+                const flightDateFrom = this.get('select');
+                const fromDateString = flightDateFrom ? (flightDateFrom.date < 10 ? '0' : '') + flightDateFrom.date + '-' + ((flightDateFrom.month + 1) < 10 ? '0' : '') + (flightDateFrom.month + 1) + '-' + flightDateFrom.year : todayDate;
+                $('#flightDateTo').pickadate('picker').set('min', fromDateString);
+                $('#flightDateTo').val(fromDateString);
+            }
+        }).val(todayDate);
+
+        $('#flightDateTo').pickadate({
+            today: '',
+            clear: '',
+            close: 'Cancel',
+            format: 'dd-mm-yyyy',
+            min: todayDate
+        }).val(todayDate);
+
+        $(".tripDiv").click(function(){
+            $(".customRadio").removeClass('active')
+            $(this).find(".customRadio").addClass('active');
+            let val = $(this).data('label')
+            $(".roundBox").toggleClass('active')
+            tripTypeFunction(val)
+        })
+
+        const tripTypeFunction = (value) => {
+            // console.log(value);
+            if(value === 'oneWay'){
+                $('#flightDateTo').hide()
+                $('.we44efgw3234').show()
+            }else if(value === 'twoWay'){
+                $('#flightDateTo').show()
+                $('.we44efgw3234').hide()
+            }
+        }
+
+        $(".rotateFly").click(function(){
+            let val1 = $("#fromFirst").text();
+            let val2 = $("#toFirst").text();
+            $("#fromFirst").text(val2);
+            $("#toFirst").text(val1);
+        })
+
+        $(".oiuytreswdfg div").click(function(){
+            $(".oiuytreswdfg div").removeClass('active')
+            $(this).addClass('active')
+            let val = $(this).data('special')
+            console.log(val);
+        })
+
+    </script>
+
+</body>
+
+</html>

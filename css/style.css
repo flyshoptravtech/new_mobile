@@ -22,7 +22,7 @@ a{
     padding: 2.5rem 1rem 1rem 1rem;
 }
 .main_fghyuji .second .bars_nav{
-    background: #ffffff96;padding: 3px 8px;border-radius: 6px;font-size: 20px;color: #fff;
+    background: #ffffff96;padding: 3px 8px;border-radius: 6px;font-size: 20px;color: #000;
 }
 .main_fghyuji .second .logo{
     height: 60px;
@@ -55,10 +55,10 @@ a{
 .mainHeadAll h4{
     margin-bottom: 0;font-size: 16px;font-weight: 600;
 }
-.mainHeadAll .iujhghui{
+.iujhghui{
     display: flex;align-items: center;gap: 6px;text-decoration: none;color: #696969;font-size: 12px;font-weight: 600;
 }
-.mainHeadAll .iujhghui i{
+.iujhghui i{
     background: var(--dynamic-text);color: #fff;padding: 4px 5px;border-radius: 50%;font-size: 8px;
 }
 
@@ -73,13 +73,16 @@ a{
     display: none;
 }
 .deal_first>div{
-    background: #fff;border-radius: 12px;box-shadow: 0px 5px 10px #09090912;padding: 8px 18px;font-size: 12px;display: inline-flex;gap: 6px;align-items: center;font-weight: 600;cursor: pointer;
+    background: #fff;border-radius: 12px;box-shadow: 0px 5px 10px #09090912;padding: 8px 18px;font-size: 12px;display: inline-flex;gap: 6px;align-items: center;font-weight: 600;cursor: pointer;transition: all ease-in-out .1s;
 }
 .deal_first>div.active{
     background: var(--dynamic-text);color: #fff;
 }
 .deal_card_div{
-    padding: 0 1rem;white-space: nowrap;overflow: auto;
+    padding: 0 1rem;white-space: nowrap;overflow: auto;display: none;
+}
+.deal_card_div.active{
+    display: block;
 }
 .deal_card_div>div{
     display: inline-block;width:180px;white-space: collapse;border: 2px solid #f5f5f5;border-radius: 18px;margin-right: 0.5rem;
@@ -282,4 +285,81 @@ a{
 }
 .faq_section .accordion-button:not(.collapsed)::after{
     transform: rotate(90deg);
+}
+.faq_section .accordion-collapse.show .accordion-body{
+    border-bottom: 1px solid #ddd;padding-bottom: 1rem;
+}
+
+
+
+.flightSearchMain{
+    background: #F5F5F5;
+}
+.flightSearchMain .rytuyuiretbg{
+    font-size: 16px;font-weight: 600;color: #2A2A2A;
+}
+.flightSearchMain .cghpijiohhvy{
+    font-size: 12px;font-weight: 400;color: #696969;
+}
+.flightSearchMain .second_child{
+    background: #fff;border-radius: 25px;padding: 1.5rem 2rem;box-shadow: 0px 0px 20px 0px #0000001A;margin-top: 14px;
+}
+.flightSearchMain .second_child .customRadio{
+    width: 15px;height: 15px;border: 1px solid var(--dynamic-text);border-radius: 50%;position: relative;transition: all ease-in-out .5s;
+}
+.flightSearchMain .second_child .customRadio.active::after{
+    content: '';position: absolute;width: 9.71px;height: 9.71px;background: var(--dynamic-text);border-radius: 50%;top: 1.5px;left: 1.5px;
+}
+
+.flrFirniegfwef{
+    margin-top: 1rem;
+}
+.flrFirniegfwef i{
+    color: var(--dynamic-text);
+}
+.flrFirniegfwef .dep{
+    transform: rotate(-25deg);
+}
+.flrFirniegfwef .arr{
+    transform: rotate(25deg);
+}
+.flrFirniegfwef>div{
+    padding: 15px 0;border-bottom: 1px solid #E0E0E0;position: relative;
+}
+.flrFirniegfwef>div .gyuyouhio{
+    font-size: 10px;font-weight: 500;color: #9D9D9D;line-height: 12px;
+}
+.flrFirniegfwef>div .fgyhoiunhyhn{
+    font-size: 14px;font-weight: 700;color: #2A2A2A;
+}
+.flrFirniegfwef>div .rotateFly{
+    position: absolute;background: #F2EEE1;bottom: -25%;right: 0;z-index: 1;padding: 6px 10px;border-radius: 10px;transform: rotate(90deg);
+}
+.flrFirniegfwef>div svg path{
+    stroke: var(--dynamic-text);
+}
+.roundBox.active svg path,.roundBox.active .gyuyouhio,.roundBox.active .we44efgw3234{
+    stroke: #ddd;color: #ddd;
+}
+.flrFirniegfwef>div .picker__wrap{
+    width: 90%;margin: auto;
+}
+.flrFirniegfwef>div .kjerwergqwrgb{
+    border: 0;outline: none;width: 100%;font-size: 14px;font-weight: 700;color: #2A2A2A;padding: 0;
+}
+
+.flightSearchMain .ghjipoiuhg p{
+    font-size: 12px;font-weight: 400;color: #696969;
+}
+.flightSearchMain .ghjipoiuhg .oiuytreswdfg{
+    white-space: nowrap;overflow: auto;display: flex;
+}
+.flightSearchMain .ghjipoiuhg .oiuytreswdfg>div{
+    border-radius: 10px;background: #E0E0E0;color: #fff;padding: 3px 16px;width: fit-content;margin-right: 12px;transition: all ease-in-out .1s;font-size: 14px;font-weight: 700;
+}
+.flightSearchMain .ghjipoiuhg .oiuytreswdfg>div.active{
+    background: var(--dynamic-text);
+}
+.flightSearchMain .submiBtnFl{
+    background: var(--dynamic-text);width: 100%;border: 0;outline: none;color: #fff;font-size: 16px;font-weight: 600;border-radius: 15px;padding: 12px;
 }
